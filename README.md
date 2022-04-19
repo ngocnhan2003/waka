@@ -1,5 +1,4 @@
-<h1 align="center">👋 @ngocnhan2003</h1>
-<h3 align="center">A passionate backend developer from Vietnam</h3>
+<h1 align="center">👋</h1>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=ngocnhan2003&label=Profile%20views&color=0e75b6&style=flat" alt="ngocnhan2003" /> </p>
 
@@ -16,4 +15,7 @@
 <p><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=ngocnhan2003&show_icons=true&locale=en&layout=compact" alt="ngocnhan2003" /></p>
 
 <p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=ngocnhan2003&" alt="ngocnhan2003" /></p>
+
+<!--START_SECTION:waka-->
+<!--END_SECTION:waka-->
 </div>
