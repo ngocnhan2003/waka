@@ -25,6 +25,6 @@ jobs:
           INPUT_WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
           INPUT_GH_TOKEN: ${{ secrets.MY_GITHUB_TOKEN }}
           INPUT_COMMIT_USERNAME: "ngocnhan2003"
-          INPUT_COMMIT_EMAIL: "ngocnhan.nplus@gmail.com"
+          INPUT_COMMIT_EMAIL: "${{ secrets.MY_EMAIL }}"
         run: |
           python main.py
