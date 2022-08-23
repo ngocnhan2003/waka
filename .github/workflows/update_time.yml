@@ -26,5 +26,6 @@ jobs:
           INPUT_GH_TOKEN: ${{ secrets.MY_GITHUB_TOKEN }}
           INPUT_COMMIT_USERNAME: "ngocnhan2003"
           INPUT_COMMIT_EMAIL: "ngocnhan.nplus@gmail.com"
+          INPUT_SYMBOL_VERSION: "2"
         run: |
           python main.py
