@@ -658,6 +658,12 @@ if __name__ == "__main__":
             print("Readme updated")
         end_time = datetime.datetime.now().timestamp() * 1000
         print("Program processed in {} miliseconds.".format(round(end_time - start_time, 0)))
+        
+        if datetime.datetime.today().weekday() == 0:
+            quote_repo = github.get_repo("ngocnhan2003/waka")
+            readme_obj = quote_repo.get_readme()
+            quote_repo.update_file(path=readme_obj.path, message="Touch", content=f"# Update Waka [{str(datetime.datetime.today().date())}]", sha=readme_obj.sha)
+
     except Exception as e:
         traceback.print_exc()
         print("Exception Occurred " + str(e))
